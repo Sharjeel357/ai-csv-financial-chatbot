@@ -204,6 +204,9 @@ assets/chart.png
 ```
 assets/data-preview.png
 ```
+### Database Structure and Features
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/1025fe2d-adeb-4613-ae2b-8d35f968aa4b" />
 
 ---
 
