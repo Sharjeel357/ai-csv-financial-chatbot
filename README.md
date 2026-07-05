@@ -1,4 +1,4 @@
-# 🏢 AI-Powered CSV Financial Chatbot — Real-Estate Portfolio Analysis
+#  AI-Powered CSV Financial Chatbot — Real-Estate Portfolio Analysis
 
 A chatbot that answers plain-English questions about real-estate investment
 data — directly from two CSV files. Built with Python, Pandas, the Groq LLM
@@ -8,7 +8,7 @@ finish.
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 You give it two CSV files:
 - **holdings.csv** — one row per investment position (price, quantity,
@@ -26,7 +26,7 @@ figure — every number comes from a plain, testable line of Pandas code.
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 User Question
@@ -57,7 +57,7 @@ answer, you know exactly which file to check.
 
 ---
 
-## 📂 Folder Structure
+##  Folder Structure
 
 ```
 project/
@@ -85,7 +85,7 @@ That's **9 Python files** doing all the work, plus one simple test file.
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ```bash
 # 1. Clone the repo
@@ -116,7 +116,7 @@ The sample `data/holdings.csv` and `data/trades.csv` load automatically.
 
 ---
 
-## 🖼️ Screenshots
+##  Screenshots
 
 *(Run the app and place your own screenshots in `assets/`, then they'll
 show up here.)*
@@ -131,7 +131,7 @@ show up here.)*
 
 ---
 
-## ⚙️ How It Works
+##  How It Works
 
 1. **You type a question** in the chat box.
 2. **Rule Engine (`rules.py`)** does a quick keyword scan — is this about
@@ -162,7 +162,7 @@ honest explanation instead of letting the AI guess a number.
 
 ---
 
-## 💬 Example Queries
+##  Example Queries
 
 - "How many holdings do we have?"
 - "How many trades were executed?"
@@ -180,7 +180,7 @@ honest explanation instead of letting the AI guess a number.
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 ```bash
 python tests.py
@@ -192,7 +192,7 @@ You should see `All tests passed!` at the end.
 
 ---
 
-## 🔭 Future Improvements
+##  Future Improvements
 
 - Add more metrics (e.g. quarter-over-quarter comparison)
 - Support additional file uploads beyond the two default CSVs
@@ -204,7 +204,7 @@ You should see `All tests passed!` at the end.
 
 ---
 
-## 🧠 Why This Design?
+##  Why This Design?
 
 This project intentionally avoids heavier tools like LangChain, RAG,
 vector databases, or a backend framework. For a two-CSV question-
@@ -215,6 +215,6 @@ part of it easy to build, test, and explain.
 
 ---
 
-## 📄 License
+##  License
 
 MIT — free to use, modify, and learn from.
