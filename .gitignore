@@ -1,0 +1,18 @@
+# Environment
+.env
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Chat export
+chat_export.json
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
